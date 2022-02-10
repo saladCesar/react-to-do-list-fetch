@@ -10,3 +10,31 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.form-body {
+    background-color: #4c5454;
+    font-family: 'Times New Roman', Times, serif;
+}
+.form-input input{
+    background-color: #ffffff;
+}
+.form-input input:hover{
+    background-color: #F7DC6F;
+}
+li {
+    background: #ff715b;
+}
+.header {
+    color: #D0D3D4;
+}
+.remove-task {
+    padding: 3px;
+}
+
+.trash-icon {
+    display: none;
+    background-color: yellow;
+  }
+  
+li:hover .trash-icon {
+    display: block;
+}
